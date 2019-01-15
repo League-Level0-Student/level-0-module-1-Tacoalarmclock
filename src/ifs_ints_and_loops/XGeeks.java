@@ -14,6 +14,8 @@ import javax.swing.JOptionPane;
 */
 public class XGeeks {
 public static void main(String[] args) {
+}
+}
 
 		// 1. Save the superpower for each person in a variable.
 
@@ -21,6 +23,6 @@ public static void main(String[] args) {
 
 		// 3. Show the superpower in a pop-up, depending on the name entered. 
 
-	}
-}
+	
+
 
