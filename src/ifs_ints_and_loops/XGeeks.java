@@ -1,9 +1,7 @@
 package ifs_ints_and_loops;
 //    Copyright (c) The League of Amazing Programmers 2013-2017
+
 //    Level 0
-
-
-
 
 import javax.swing.JOptionPane;
 
@@ -13,16 +11,16 @@ import javax.swing.JOptionPane;
 * your program should say "June's superpower is writing recipes".
 */
 public class XGeeks {
-public static void main(String[] args) {
+	public static void main(String[] args) {
+		String amt = JOptionPane.showInputDialog("who's superpower do you want to see");
+
+		if (amt.equalsIgnoreCase("misha")) {
+
+			JOptionPane.showMessageDialog(null, "selfishness");
+		} else {
+			JOptionPane.showMessageDialog(null, "Why would you want to know about somebody who isn't misha");
+			JOptionPane.showMessageDialog(null, "Misha's is selfishness");
+		}
+
+	}
 }
-}
-
-		// 1. Save the superpower for each person in a variable.
-
-		// 2. Ask the user to enter a name. Store their answer in a variable.
-
-		// 3. Show the superpower in a pop-up, depending on the name entered. 
-
-	
-
-
